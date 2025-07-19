@@ -1,0 +1,48 @@
+{
+    "name": "unified-api-ui-coverage",
+    "version": "1.0.0",
+    "description": "Track which API endpoints are tested via UI and API tests, and generate combined coverage reports.",
+    "main": "src/index.js",
+    "bin": {
+        "coverage-reporter": "./bin/coverage-reporter.js"
+    },
+    "scripts": {
+        "test": "node tests/unit-tests.js",
+        "report": "node bin/coverage-reporter.js",
+        "lint": "eslint src bin",
+        "format": "prettier --write src bin"
+    },
+    "keywords": [
+        "QA",
+        "automation",
+        "Playwright",
+        "SuperTest",
+        "coverage",
+        "report"
+    ],
+    "dependencies": {
+        "sqlite3": "^5.1.7",
+        "supertest": "^6.3.4"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.45.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ZaidMomin1/unified-api-ui-coverage.git"
+    },
+    "author": "Zaid Momin <zaid.i.momin@gmail.com>",
+    "bugs": {
+        "url": "https://github.com/ZaidMomin1/unified-api-ui-coverage/issues"
+    },
+    "files": [
+        "src",
+        "bin",
+        "README.md",
+        "LICENSE"
+    ],
+    "engines": {
+        "node": ">=14"
+    },
+    "license": "MIT"
+}
