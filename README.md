@@ -16,6 +16,18 @@ Easily track and visualize which API endpoints are covered by your UI and API te
 
 ---
 
+## Sample Coverage Report
+
+Easily visualize your test coverage with a modern, filterable HTML report:
+
+![Sample Coverage Report](docs/report-sample.png)
+
+- See which endpoints are covered by UI, API, or both
+- Filter, search, and sort by method, URL, test name, or status
+- Quickly identify gaps in your test coverage
+
+---
+
 ## Installation
 
 ```sh
