@@ -1,6 +1,6 @@
 {
     "name": "unified-api-ui-coverage",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Track which API endpoints are tested via UI and API tests, and generate combined coverage reports.",
     "main": "src/index.js",
     "bin": {
