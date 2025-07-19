@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 const { generateReport } = require('../src/reporter');
 const path = require('path');
 
